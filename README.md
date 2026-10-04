@@ -1,115 +1,35 @@
-# 👨‍💻 Hamada Mohamed Emam  
-**Backend Engineer | PHP/Laravel | API Integrations | Real-Time Systems**
+### Hey, I'm Hamada 👋
 
-Building scalable, secure, and high-performance backend systems powering logistics, LMS, e-commerce, and SaaS platforms for 160+ companies and 100k+ users worldwide.
+Backend tech lead from Banha, Egypt 🇪🇬. I write PHP and Laravel, mostly multi-tenant SaaS for teams in Saudi, the Gulf and back home.
 
----
+```php
+$hamada = new Engineer(
+    role:      'Backend Tech Lead @ York Holding',
+    since:     2021,
+    likes:     ['clean domain boundaries', 'boring deploys', 'strong coffee'],
+    dealsWith: ['Odoo ERP', 'ETA e-invoicing', 'Nafath', 'Salla', 'Shopify'],
+);
 
-<div align="center">
-  <p>
-    🌐 <a href="https://hamada.emam-tech.com" target="_blank"><strong>Portfolio</strong></a> •  
-    💼 <a href="https://linkedin.com/in/hamada-emam-tech" target="_blank"><strong>LinkedIn</strong></a> •  
-    🧑‍💻 <a href="https://github.com/hamada-emam-tech" target="_blank"><strong>GitHub</strong></a>  
-    <br/>
-    📧 <a href="mailto:hamada@emam-tech.com">hamada@emam-tech.com</a> •  
-    📱 <a href="https://wa.me/201201079423" target="_blank">WhatsApp</a>  
-    <br/>
-    📍 Banha, Egypt
-  </p>
-</div>
+$hamada->rule(); // keep the business logic where it is when the vendor changes
+```
 
----
+Most of my work is the stuff that's annoying to get wrong: ERP sync, subscription billing, tax e-invoices, identity checks. Most of it sits in private company repos, so here's what you can actually look at.
 
-## 🚀 About Me
-I’m **Hamada Emam**, a Backend Engineer with **4+ years of experience** architecting robust backend systems using **Laravel/PHP**, powering large-scale logistics, LMS, SaaS, and e-commerce platforms.
+**Things I've built or worked on**
 
-I specialize in:
+- [Dwelleo](https://dwelleo.sa): real-estate SaaS. I'm leading it now, and I moved it from a modular monolith to microservices.
+- [Courssat Plus](https://courssatplus.com): an Arabic learning platform with 200k+ students.
+- [Accurate Logistics](https://logistics.accuratess.dev): shipping SaaS used by 160+ companies. It also has a [Shopify app](https://apps.shopify.com/accurate-logistics).
+- [Busnaa](https://busnaa.com): school bus tracking. I moved it off Firebase onto Laravel and Postgres.
 
-- Multi-tenant architecture & scalable system design  
-- RESTful & GraphQL APIs (Shopify, ETA, Payment Gateways, WhatsApp…)  
-- Real-time applications (WebSockets, Socket.IO, Pusher, Reverb)  
-- Database optimization (MySQL, PostgreSQL, Oracle, Redis, MongoDB)  
-- DevOps automation with Docker, CI/CD, Linux, Nginx  
-- Technical leadership & cross-team collaboration  
+**Open source you can install today**
 
----
+- [nafath-php](https://github.com/hamada-emam-tech/nafath-php): Saudi Nafath login for PHP, with the parts the official docs forget already handled.
+- [whatsapp-manager](https://github.com/hamada-emam-tech/whatsapp-manager): one API for WhatsApp Business that works with several providers.
+- [e-invoicing-signer](https://github.com/hamada-emam-tech/e-invoicing-signer): signs Egyptian Tax Authority e-invoices.
+- [task-management-api](https://github.com/hamada-emam-tech/task-management-api): a small Laravel API showing how I like to structure code.
+- [dev-scripts](https://github.com/hamada-emam-tech/dev-scripts): tiny CLI helpers. `pkg-link` lets you live-edit a local Composer package inside a project.
 
-## 🛠️ Tech Stack
+**Usual toolbox:** PHP 8 · Laravel · MySQL · Postgres · Redis · RabbitMQ · GraphQL · Docker · AWS · GitHub Actions
 
-### **Backend & Core**
-`PHP` • `Laravel` • `Lumen` • `GraphQL` • `REST APIs` • `OOP` • `SOLID` • `Design Patterns`
-
-### **Databases**
-`MySQL` • `PostgreSQL` • `Oracle` • `Redis` • `Memcached` • `MongoDB`
-
-### **Real-Time & Integrations**
-`WebSockets` • `Socket.IO` • `Pusher` • `Reverb` • Shopify • ETA E-Invoicing • Payment Gateways • WhatsApp • SMS
-
-### **DevOps & Tools**
-`Docker` • `Kubernetes` • `Jenkins` • `GitHub Actions` • `Nginx/Apache` • `Linux` • `CI/CD` • `Cloudflare`
-
----
-
-## 💼 Experience
-
-### 🔹 Accurate Smart Solutions  
-**Backend Engineer — Full-time (2022 – Present)**  
-- Rebuilt legacy **Oracle-based ERP + logistics + freight systems** using Laravel, GraphQL, and React.  
-- Delivered platforms serving **160+ companies & 100k+ users** with 99.8% uptime.  
-- Built **WebSocket server** for real-time tracking & live updates.  
-- Published **Shopify app** for automated logistics workflows.  
-- Developed **ETA E-Invoicing package**, **E-Document signer**, and **PHP SDK** on Packagist.  
-- Built HRMS with fingerprint attendance and automated payroll logic.
-
-### 🔹 LearnG LMS  
-**Full-Stack Laravel Developer — Part-time (2024 – 2025)**  
-- Built **multi-tenant LMS** with domain-based tenant resolution.  
-- Implemented course progress, certification, and credit-hour tracking for B2B SaaS.
-
-### 🔹 Busnaa  
-**Backend Developer — Part-time (2024 – 2025)**  
-- Migrated platform from **Firebase → Laravel + PostgreSQL**.  
-- Implemented real-time tracking with Reverb + optimized database schema.
-
----
-
-## 📦 Key Projects
-
-### 🚚 Shipping & Logistics System  
-**Laravel • GraphQL • Oracle • React • Flutter**  
-- Enterprise shipping SaaS with tracking, roles, notifications, APIs, and automation.  
-- Integrated Shopify, Salla, ETA, payment gateways, and real-time tracking.
-
-### 🎓 LearnG LMS  
-Multi-tenant LMS with domain-based routing, hierarchical roles, course bundling, progress tracking & certificates.
-
-### 🚌 Busnaa  
-Realtime tracking, REST APIs, Firebase → PostgreSQL migration, optimized relational design.
-
-### 📦 Logistics PHP SDK  
-Framework-agnostic PHP SDK for GraphQL integrations used by partners.
-
-### 🧾 ETA E-Invoicing SDK  
-PHP package for signing & submitting ETA-compliant invoices with cryptographic signer.
-
-### 🖨️ Sign Print  
-E-commerce platform with custom design editor, variations, and real-time inventory.
-
----
-
-## 🎓 Education
-- **B.Sc. Information Systems** — Banha University  
-- **Web Development Program** — NTI Smart Village
-
----
-
-## 🌱 Currently Learning
-- Microservices & Distributed Systems  
-- Kubernetes for Production Deployment  
-- DDD & Clean Architecture  
-
----
-
-<div align="center">
-  <strong>Let’s build something great — explore my work at <a href="https://hamada.emam.tech" target="_blank">hamada.emam.tech</a> 🚀</strong>
-</div>
+I write about this stuff on [my blog](https://hamada.emam-tech.com/blog). To talk, email [hamada@emam-tech.com](mailto:hamada@emam-tech.com) or find me on [LinkedIn](https://linkedin.com/in/hamada-emam-tech). I'm open to senior backend and tech lead roles.
